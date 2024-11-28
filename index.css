@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* navbar */
+html,body{
+    overflow-x: hidden;
+  overflow-x: clip !important;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    color: azure;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li a {
+    color: azure;
+}
+
+.navList {
+    margin-left: 30px;
+
+}
+li{
+    list-style: none;
+}
+.navul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+.navul li a:hover{
+    color: #676767;
+}
+.hamburger{
+    visibility: hidden;
+}
+.menu{
+    visibility: hidden;
+}
+.logo {
+    margin-left: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h4{
+    margin-left: 8px;
+    color: rgb(194, 191, 191);
+}
+#logoImg{
+    height: 40px;
+    width: 40px;
+}
+/* welcome */
+.welcome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-image: url('./public/download.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    /* height: 100%; */
+    color: rgb(179, 179, 179);
+
+
+}
+
+.textSec {
+    width: 40%;
+
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+.heading h2{
+    font-size: 30px;
+}
+.about {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(85, 83, 83);
+    height: 90vh;
+    box-shadow: 0 60px 80px rgba(0, 0, 0, 0.60), 0 45px 26px rgba(0, 0, 0, 0.14);
+    width: 60%;
+}
+
+#abtImg {
+    height: 70px;
+    width: 70px;
+    border-radius: 90%;
+    object-fit: cover;
+}
+
+.abtImg {
+    border-radius: 100%;
+
+}
+
+.abtText {
+    text-align: center;
+    margin-top: 30px;
+    width: 80%;
+}
+
+.abtHead {
+    margin-bottom: 30px;
+}
+
+.abtContainer {
+    height: 107vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.donation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-image: url('./public/donation.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    width: 100%;
+
+    color: rgb(179, 179, 179);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.donHead {
+    text-align: center;
+    width: 70%;
+}
+
+.donHead h1 {
+    margin-bottom: 15px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6vw;
+}
+
+.donHead p {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 20px 20px 60px #676767, -20px -20px 60px #0c0c0c;
+    margin-inline: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imag {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.imag h3 {
+    font-weight: 600;
+}
+
+.options a {
+    color: #afacac;
+}
+
+footer {
+    /* height: 10vh; */
+    background-color: #0a0a0a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    padding-block: 18px;
+}
+
+footer span {
+    margin-left: 30px;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vw;
+    color: #313030;
+}
+
+.hamburger {
+    position: absolute;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.0);
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  .closeIcon {
+    display: none;
+  }
+  .close{
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.0);
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  .menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  } 
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu ul li{
+    margin-top: 30px;
+  }
+  .menu ul li a{
+    font-size: 29px;
+    color: #b3b3b3;
+    text-decoration: underline;
+  }
+  .showMenu {
+    transform: translateY(0);
+  }
+  .mainSwipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px;
+  }
+  .swipeContainer{
+    background-color: #404040;
+    text-align: center;
+  }
+  .swipeContainer {
+    color: #b3b3b3;
+    
+  }
+  #swipeHead {
+    padding: 15px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5vw;
+  }
+  .swiperImage{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .swipeHeadContainer{
+    text-align: center;
+    width: 70%;
+    margin: 0px auto;
+  }
+  .abtText p{
+    margin-top: 8px;
+  }
+@media only screen and (max-width: 700px) {
+    body{
+        width: 100%;
+    }
+    .navbar{
+        width: 100vw;
+        padding-block: 9px;
+    }
+    .logo {
+        margin-left: 5px;
+    }
+    .abtContainer{
+        height: 140vh;
+    }
+    .navul{
+        display: none;
+        margin-right: 0px;
+    }
+    .navList{
+        margin-left: 0px;
+    }
+    .para p{
+        font-size: 18px;
+    }
+    .options{
+        flex-direction: column;
+    }
+    .donation{
+        height:63rem;
+    }
+    .card{
+        margin-top: 15px;
+    }
+    .about{
+        width:93%;
+        height: 120vh;
+        
+    }
+    .hamburger{
+        visibility: visible;
+    }
+    .menu{
+        visibility: visible;
+    }
+    .textSec{
+        width: 70%;
+    }
+    #swipeHead {
+        font-size: 9vw;
+    }
+    form {
+        padding: 37.5px;
+        margin: 50px 0;
+      }
+}
+@media only screen and (max-height: 700px) {
+
+    /* .donation {
+        height: 132vh;
+    } */
+    /* .about{
+        height: 90vh;
+    } */
+    .hamburger img{
+        height: 20px;
+        width: 20px;
+    }
+    /* .navbar{
+        padding-block:20px ;
+    } */
+    .heading h2{
+        font-size: 24px;
+    }
+    .para p{
+        font-size: 16px;
+    }
+}

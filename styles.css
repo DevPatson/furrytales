@@ -1,0 +1,457 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+.button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #afacac;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+}
+
+.button-28:disabled {
+    pointer-events: none;
+}
+
+.doa:hover{
+    color: #fff;
+}
+.button-28:hover {
+    color: #fff;
+    background-color: #1c931c;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+
+textarea {
+    resize: none;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+
+.svg-inline--fa {
+  /* vertical-align: -0.200em; */
+}
+
+.rounded-social-buttons {
+  text-align: center;
+  margin-right: 20px;
+  
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-tiktok, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.tiktok {
+  background: #000000;
+}
+
+.rounded-social-buttons .social-button.tiktok:hover, .rounded-social-buttons .social-button.tiktok:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #000000;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #F2F3EB;
+}
+
+form {
+  padding: 37.5px;
+  margin: 0px 0;
+}
+
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: 0.488em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #474544;
+}
+
+:-moz-placeholder { 
+	color: #474544;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #474544;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 70px 55px;
+}
+.card-list .card-item {
+  height: auto;
+  color: #fff;
+  user-select: none;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.card-list .card-item .user-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  border: 3px solid #fff;
+  padding: 4px;
+}
+.card-list .card-item .user-profession {
+  font-size: 1.15rem;
+  color: #e3e3e3;
+  font-weight: 500;
+  margin: 14px 0 40px;
+}
+.card-list .card-item .message-button {
+  font-size: 1.25rem;
+  padding: 10px 35px;
+  color: #030728;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+.card-list .card-item .message-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  color: #fff;
+}
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+}
+.slider-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+.slider-wrapper .swiper-slide-button {
+  color: #fff;
+  margin-top: -55px;
+  transition: 0.2s ease;
+}
+.slider-wrapper .swiper-slide-button:hover {
+  color: #4658ff;
+}
+@media (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 10px 40px;
+  }
+  .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+  /* ul{
+    visibility: hidden;
+  } */
+}
