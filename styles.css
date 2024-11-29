@@ -155,6 +155,16 @@ textarea {
   border-color: #bb0000;
 }
 
+.rounded-social-buttons .social-button.whatsapp {
+  background: #25d366;
+}
+
+.rounded-social-buttons .social-button.whatsapp:hover, .rounded-social-buttons .social-button.whatsapp:focus {
+  color: #25d366;
+  background: #fefefe;
+  border-color: #25d366;
+}
+
 .rounded-social-buttons .social-button.instagram {
   background: #125688;
 }
@@ -412,6 +422,9 @@ textarea {
   .slider-wrapper .swiper-slide-button {
     display: none;
   }
+  .rounded-social-buttons {
+    margin-right: -3px;
+}
 }
 @media screen and (max-width: 768px) {
   #container {
