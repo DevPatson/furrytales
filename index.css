@@ -127,7 +127,7 @@ li{
 
 .abtText {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
     width: 80%;
 }
 
@@ -325,6 +325,10 @@ footer h2 {
   }
   .abtText p{
     margin-top: 8px;
+  }
+  .abtimgtwo{
+    margin-left: -15px;
+    border-left: 3px solid white;
   }
 @media only screen and (max-width: 700px) {
     body{
