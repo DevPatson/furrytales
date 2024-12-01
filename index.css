@@ -108,7 +108,7 @@ li{
     justify-content: center;
     align-items: center;
     color: rgb(85, 83, 83);
-    height: 90vh;
+    height: 70rem;
     box-shadow: 0 60px 80px rgba(0, 0, 0, 0.60), 0 45px 26px rgba(0, 0, 0, 0.14);
     width: 60%;
 }
@@ -130,13 +130,25 @@ li{
     margin-top: 10px;
     width: 80%;
 }
-
+.paraUl {
+    margin: 24px;
+    text-align: left;
+    margin-left: 45px;
+}
+.paral {
+    list-style: disc;
+    margin-bottom: 5px;
+}
+.parah3{
+    margin: 23px;
+    color: #292929;
+}
 .abtHead {
     margin-bottom: 30px;
 }
 
 .abtContainer {
-    height: 107vh;
+    height: 80rem;
     display: flex;
     justify-content: center;
 
@@ -342,7 +354,7 @@ footer h2 {
         margin-left: 5px;
     }
     .abtContainer{
-        height: 140vh;
+        height: 110rem;
     }
     .navul{
         display: none;
@@ -365,7 +377,7 @@ footer h2 {
     }
     .about{
         width:93%;
-        height: 120vh;
+        height: 104rem;
         
     }
     .hamburger{
